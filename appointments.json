@@ -1,0 +1,64 @@
+{
+  "foglalas": [
+    {
+      "id": 1,
+      "nev": "Kiss József",
+      "telefonszam": "06301234567",
+      "idopont": "2021-09-01 10:00"
+    },
+    {
+      "id": "2ba5",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "f958",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "93be",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "8f56",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "aec1",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "fb11",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "587e",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "d45a",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    },
+    {
+      "id": "6fb4",
+      "nev": "asd",
+      "telefonszam": "asdsad",
+      "idopont": "Péntek"
+    }
+  ]
+}
