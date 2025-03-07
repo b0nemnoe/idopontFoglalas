@@ -1,64 +1,52 @@
 {
   "foglalas": [
     {
-      "id": 1,
-      "nev": "Kiss József",
-      "telefonszam": "06301234567",
-      "idopont": "2021-09-01 10:00"
+      "id": "e7fc",
+      "nev": "asdds",
+      "telefonszam": "asdsa",
+      "idopont": "2025/03/12 14:00"
     },
     {
-      "id": "2ba5",
-      "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
+      "id": "0785",
+      "nev": "dsasd",
+      "telefonszam": "asdsa",
+      "idopont": "2025/04/02 08:00"
     },
     {
-      "id": "f958",
+      "id": "fc15",
       "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
+      "telefonszam": "sdasda",
+      "idopont": "2025/03/12 14:00"
     },
     {
-      "id": "93be",
+      "id": "ceec",
       "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
+      "telefonszam": "asd",
+      "idopont": "2025/03/05 14:00"
     },
     {
-      "id": "8f56",
-      "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
+      "id": "c3d7",
+      "nev": "asdyíy",
+      "telefonszam": "yxasd",
+      "idopont": "2025/03/19 14:00"
     },
     {
-      "id": "aec1",
-      "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
+      "id": "d28c",
+      "nev": "sdsda",
+      "telefonszam": "dsasda",
+      "idopont": "2025/03/05 15:00"
     },
     {
-      "id": "fb11",
-      "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
+      "id": "0ac1",
+      "nev": "sdsda",
+      "telefonszam": "dsasda",
+      "idopont": "2025/03/05 13:00"
     },
     {
-      "id": "587e",
-      "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
-    },
-    {
-      "id": "d45a",
-      "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
-    },
-    {
-      "id": "6fb4",
-      "nev": "asd",
-      "telefonszam": "asdsad",
-      "idopont": "Péntek"
+      "id": "b731",
+      "nev": "sdsda",
+      "telefonszam": "dsasda",
+      "idopont": "2025/03/08 08:00"
     }
   ]
 }

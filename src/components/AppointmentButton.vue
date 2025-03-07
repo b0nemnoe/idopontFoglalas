@@ -1,5 +1,9 @@
 <template>
-  <div class="appointment" @click="selectAppointment">
+  <div
+    class="appointment btn"
+    :class="{ 'btn-secondary': !props.isBooked, 'btn-danger': props.isBooked }"
+    @click="selectAppointment"
+  >
     {{ time }}
   </div>
 </template>

@@ -14,11 +14,13 @@
   "dependencies": {
     "ajax": "^0.0.4",
     "axios": "^1.8.1",
+    "bootstrap": "^5.3.3",
     "json-server": "^1.0.0-beta.3",
     "pinia": "^3.0.1",
     "toastification": "^0.1.5",
     "vue": "^3.5.13",
-    "vue-router": "^4.5.0"
+    "vue-router": "^4.5.0",
+    "vue-toastification": "^2.0.0-rc.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.20.0",
