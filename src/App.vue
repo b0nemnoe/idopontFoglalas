@@ -13,7 +13,7 @@ onMounted(() => {
 <template>
   <header>
     <div class="wrapper">
-      <nav>
+      <nav class="d-flex justify-content-center border-bottom py-2 ">
         <p>
           <RouterLink to="/">Főoldal</RouterLink>
         </p>
@@ -30,6 +30,25 @@ onMounted(() => {
 <style scoped>
 .wrapper nav {
   display: flex;
-  gap: 10px; /* Adjust the gap as needed */
+  gap: 10px;
+  
 }
+.wrapper nav p > *{
+  background-color: hsla(0, 0%, 0%, 0.317);
+  border-radius: 1em;
+  font-size: 1em;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+.wrapper nav p > *:hover{
+  background-color: hsla(0, 0%, 0%, 0.527);
+}
+
+.wrapper{
+  background-image: url(./src/images/barbershop.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
 </style>

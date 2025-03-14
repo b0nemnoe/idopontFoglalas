@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex flex-row gap-4">
+  <div class="d-flex flex-row gap-4 justify-content-center container">
     <div v-for="(slots, day) in store.weekTimeSlots" :key="day" class="d-flex flex-column gap-3">
       <h3 class="text-dark">{{ day }}</h3>
       <div v-for="slot in slots" :key="slot.time" class="d-flex flex-column gap-2">
@@ -7,7 +7,6 @@
           :time="slot.time"
           :isBooked="slot.isBooked"
           @select="handleSelect(day, slot.time)"
-          class="btn btn-outline-dark"
         />
       </div>
     </div>

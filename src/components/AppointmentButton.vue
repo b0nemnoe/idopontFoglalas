@@ -1,11 +1,11 @@
 <template>
-  <div
+  <button
     class="appointment btn"
-    :class="{ 'btn-secondary': !props.isBooked, 'btn-danger': props.isBooked }"
+    :class="{ 'btn-outline-dark': !props.isBooked, 'btn-danger': props.isBooked }"
     @click="selectAppointment"
   >
     {{ time }}
-  </div>
+  </button>
 </template>
 
 <script setup>
@@ -25,22 +25,21 @@ const selectAppointment = () => {
 
 <style scoped>
 .appointment {
-  width: 100px;
-  height: 20px;
+  width: 120px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #ccc;
+  border-radius: 8px;
   cursor: pointer;
-  background-color: #f9f9f9;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .appointment:hover {
-  background-color: #e0e0e0;
+  transform: scale(1.05);
 }
 
-.appointment.booked {
-  background-color: #ffcccc;
+.appointment.btn-danger {
   cursor: not-allowed;
 }
 </style>
