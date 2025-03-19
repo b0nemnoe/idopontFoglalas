@@ -51,7 +51,7 @@ const formattedSelectedTimeSlot = computed(() => {
   const { weekNumber, dayName, time } = parseSelectedTimeSlot(props.selectedTimeSlot)
   if (isNaN(weekNumber) || !dayName || !time) return 'Hibás formátum'
 
-  const baseDate = new Date(2025, 2, 3) // Fix dátum a konzisztencia érdekében
+  const baseDate = new Date(2025, 2, 24)
   const appointmentDate = calculateAppointmentDate(baseDate, weekNumber, dayName)
 
   return `${formatDate(appointmentDate)} ${time}`

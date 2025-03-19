@@ -84,7 +84,7 @@ export const useStore = defineStore('store', () => {
       })
 
       const weekNumber = parseInt(selectedWeek.split('.')[0], 10)
-      const startDate = new Date(2025, 2, 3) // Március 3. (hétfő)
+      const startDate = new Date(2025, 2, 24) 
       startDate.setDate(startDate.getDate() + (weekNumber - 1) * 7)
 
       // Péntek 23:59:59-ig
